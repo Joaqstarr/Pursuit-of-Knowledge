@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 0.44367537, z: -2.7898216}
+  m_FollowOffset: {x: 0, y: 0.4, z: -2.68}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -699,7 +699,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893256370118052104}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.011981626, y: 0.9985909, z: -0.04412938, w: -0.026931603}
+  m_LocalRotation: {x: 0.15532789, y: 0.9147334, z: 0.0069033047, w: -0.3729457}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 0.44367537, z: -2.7898216}
+  m_FollowOffset: {x: 0, y: 0.4, z: -2.68}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1990,8 +1990,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4314569096102657643}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16061042, y: -0.69475436, z: 0.16368371, w: 0.6817098}
-  m_LocalPosition: {x: -4.84767, y: -4.4451566, z: 1.1524205}
+  m_LocalRotation: {x: 0.09009626, y: -0.8670091, z: 0.16993397, w: 0.45967427}
+  m_LocalPosition: {x: -4.66581, y: -4.488832, z: 1.667397}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2048,7 +2048,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_YAxis:
-    Value: 0.03676485
+    Value: 0
     m_SpeedMode: 1
     m_MaxSpeed: 2
     m_AccelTime: 0
@@ -2144,7 +2144,7 @@ MonoBehaviour:
   m_CollideAgainst:
     serializedVersion: 2
     m_Bits: 1
-  m_IgnoreTag: 
+  m_IgnoreTag: IgnoreCam
   m_TransparentLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2378,7 +2378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 0.44367537, z: -2.7898216}
+  m_FollowOffset: {x: 0, y: 0.4, z: -2.68}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -3279,8 +3279,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5334083795213922328}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0112261735, y: 0.99697256, z: -0.07195015, w: -0.0272551}
-  m_LocalPosition: {x: 0.00000028918475, y: 0.00000638391, z: 0.0000138643445}
+  m_LocalRotation: {x: 0.1439511, y: 0.9145224, z: -0.020828752, w: -0.37748265}
+  m_LocalPosition: {x: -0.00005651357, y: -0.00001413725, z: -0.000054889322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3742,8 +3742,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6184417817863886270}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.012915483, y: 0.9995231, z: -0.009205408, w: -0.026496472}
-  m_LocalPosition: {x: 0.00000028918475, y: 0.00000638391, z: 0.0000138643445}
+  m_LocalRotation: {x: 0.16826604, y: 0.91393346, z: 0.03886552, w: -0.36728978}
+  m_LocalPosition: {x: -0.00005651357, y: -0.00001413725, z: -0.000054889322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4580,6 +4580,9 @@ MonoBehaviour:
   OnSteamEmpty:
     m_PersistentCalls:
       m_Calls: []
+  _onActivatedSound: {fileID: 0}
+  _onDectivatedSound: {fileID: 0}
+  _audioSource: {fileID: 0}
   <SteamAmount>k__BackingField: -1
   <MaxSteamAmount>k__BackingField: 10
   <SteamRegenRate>k__BackingField: 0
